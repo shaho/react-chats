@@ -1,10 +1,15 @@
 import React from "react";
 import "./App.css";
 
+import Dashboard from "./Dashboard";
+import Store from "./Store";
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <Store>
+        <Dashboard />
+      </Store>
     </div>
   );
 }
